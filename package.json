@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "npm install --legacy-peer-deps && next build"
   },
   "prisma": {
     "seed": "tsx --require dotenv/config scripts/seed.ts"
@@ -123,8 +124,3 @@
     "not dead"
   ]
 }
-"scripts": {
-  "build": "next build",
-  "vercel-build": "npm install --legacy-peer-deps && next build"
-}
-
