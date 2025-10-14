@@ -123,3 +123,8 @@
     "not dead"
   ]
 }
+"scripts": {
+  "build": "next build",
+  "vercel-build": "npm install --legacy-peer-deps && next build"
+}
+
