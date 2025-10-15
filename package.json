@@ -1,5 +1,5 @@
 {
-  "name": "kogito",
+ "name": "kogito",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
   "build": "next build",
   "start": "next start",
   "lint": "next lint",
-  "vercel-build": "npm install --legacy-peer-deps && next build"
+  "vercel-build": "npm install --legacy-peer-deps && npx prisma generate && next build"
 },
   "dependencies": {
     "@next-auth/prisma-adapter": "^1.0.7",
